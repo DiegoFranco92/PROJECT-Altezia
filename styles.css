@@ -28,7 +28,9 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
 }
 
 .main-nav {
@@ -36,12 +38,13 @@ html, body {
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(94, 94, 94, 0.1);
 }
 
 .main-header {
-    background-color: rgba(139, 137, 137, 0.6);
-    background-blend-mode: multiply;
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
     background-size: cover;
     padding-bottom: 30px;
 }
@@ -61,6 +64,51 @@ html, body {
     font-family: "Booter - Zero Zero";
     color: black;
 }
+
 .titulo-altezia-large {
     font-size: 5em;
+}
+
+.main-footer {
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+    color: whitesmoke;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+
+}
+
+.main-footer h3 {
+    text-align: left;
+    margin: 0;
+    font-size: 3em;
+    font-family: "Booter - Zero Zero";
+    color: black;
+    padding-left: .5em;
+}
+
+.content-section {
+    padding-left: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 2em;
 }
