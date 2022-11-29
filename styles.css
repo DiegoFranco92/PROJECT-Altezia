@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(85, 85, 85);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .8em;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.main-nav {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.main-header {
+    background-color: rgba(139, 137, 137, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.titulo-altezia {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    color: black;
+}
+
+.subtitulo-altezia {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: "Booter - Zero Zero";
+    color: black;
+}
+.titulo-altezia-large {
+    font-size: 5em;
+}
