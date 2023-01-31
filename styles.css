@@ -1,114 +1,96 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: rgb(85, 85, 85);
+    color: rgb(231, 231, 231);
 }
 
-html, body {
+/* Styling for the header section */
+header {
+    background-color: #0D47A1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* style for the nav bar */
+
+header nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.nav ul {
-    margin: 0;
-}
-
-.nav li {
-    display: inline;
-}
-
-.nav a {
-    display: inline-block;
-    padding: .8em;
-    color: rgb(85, 85, 85);
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    color: rgb(231, 231, 231);
     text-decoration: none;
-}
+  }
+  
 
-.main-nav {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    background-color: #DCD9D4;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
-    background-blend-mode: soft-light,screen;
-}
-
-.main-nav {
-    padding: 0 5%;
-}
-
-.nav a:hover {
-    background-color: rgba(94, 94, 94, 0.1);
-}
-
-.main-header {
-    background-color: #DCD9D4;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
-    background-blend-mode: soft-light,screen;
-    background-size: cover;
-    padding-bottom: 30px;
-}
-
-.titulo-altezia {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
-    color: black;
-}
-
-.subtitulo-altezia {
-    text-align: center;
-    margin: 0;
-    font-size: 2em;
-    font-family: "Booter - Zero Zero";
-    color: black;
-}
-
-.titulo-altezia-large {
-    font-size: 5em;
-}
-
-.main-footer {
-    background-color: #DCD9D4;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
-    background-blend-mode: soft-light,screen;
-    color: whitesmoke;
-    padding: .25em 0;
-}
-
-.main-footer-container {
+/* Style for the main section */
+main {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
-}
-
-.footer-nav li {
-    padding: 0 .5em;
-
-}
-
-.main-footer h3 {
-    text-align: left;
-    margin: 0;
-    font-size: 3em;
-    font-family: "Booter - Zero Zero";
-    color: black;
-    padding-left: .5em;
-}
-
-.content-section {
-    padding-left: 1em;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
-}
-
-.section-header {
+.property-card {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 2px 5px #CCCCCC;
+    margin: 20px;
+    padding: 20px;
     text-align: center;
-    font-size: 2em;
+}
+
+.property-card h3 {
+    margin: 0;
+}
+
+.property-card p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #9E9E9E;
+}
+
+/* Style for the footer section */
+footer {
+    background-color: #0D47A1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/*.main-section {
+    background-image: url(./images/aerea.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 1;
+}*/
+
+.main-section {
+    background: url(./video/ALTEZIA\ 1.mp4) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
 }
